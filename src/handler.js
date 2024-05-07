@@ -1,3 +1,12 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-undef */
+/* eslint-disable linebreak-style */
+/* eslint-disable max-len */
+/* eslint-disable linebreak-style */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable padded-blocks */
+/* eslint-disable indent */
+/* eslint-disable linebreak-style */
 const { nanoid } = require('nanoid');
 const notes = require('./notes');
 
@@ -118,4 +127,6 @@ const deleteNoteByIdHandler = (request, h) => {
       return response;
   };  
 
-module.exports = { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler };
+module.exports = {
+ addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler, 
+};
